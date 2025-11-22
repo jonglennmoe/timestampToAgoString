@@ -10,19 +10,17 @@ A small util for converting a timestamp to a string.
 
 ## Installation
 
-**Installation**
-
 ```
 npm install
 ```
 
-## Test
-
-**Run tests**
+## Run tests
 
 ```
 npm test
 ```
+
+Code coverage can be found in the coverage folder which is created once running the tests.
 
 ## Usage
 
