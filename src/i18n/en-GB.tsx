@@ -12,6 +12,7 @@ export const i18n = {
         week: "week",
         month: "month",
         year: "year",
-        plural: "s"
+        plural: "s",
+        ago: "ago"
     }
 };

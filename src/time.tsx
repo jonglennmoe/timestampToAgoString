@@ -1,6 +1,6 @@
 import { i18n } from "../src/i18n/en-GB";
 
-export default function timestampToString(milliseconds: number) {
+export default function timestampToAgoString(milliseconds: number) {
     const now = Date.now();
     let timestampAsSeonds: number = (now - milliseconds) / 1000;
     let unit = i18n.time.second;
@@ -38,5 +38,5 @@ export default function timestampToString(milliseconds: number) {
     let timeString = timestampAsSeonds.toFixed(0) + " " + unit;
     timeString += timestampAsSeonds > 2 ? i18n.time.plural : "";
 
-    return timeString;
+    return timeString + " " + i18n.time.ago;
 };
