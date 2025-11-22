@@ -1,4 +1,4 @@
-## Your assignment
+## Timestamp to string.
 
 A small util for converting a timestamp to a string.
 - "XX seconds"
