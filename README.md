@@ -1,12 +1,14 @@
 ## Your assignment
 
 A small util for converting a timestamp to a string.
-- "XX seconds ago"
-- "XX minutes ago"
-- "XX hours ago"
-- "XX weeks ago"
-- "XX months ago"
-- "XX years ago"
+- "XX seconds"
+- "XX minutes"
+- "XX hours"
+- "XX weeks"
+- "XX months"
+- "XX years"
+
+Of course the String can 
 
 ## Installation
 
@@ -29,11 +31,9 @@ npm test
 **Run tests**
 
 ```
-import getCreatedAtString from '../src/time';
+import timestampToString from '../src/time';
 
-getCreatedAtString(milliseconds)
-
-// returns "Created at....."
+timestampToString(milliseconds)
 ```
 
 
