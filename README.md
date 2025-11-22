@@ -8,8 +8,6 @@ A small util for converting a timestamp to a string.
 - "XX months"
 - "XX years"
 
-Of course the String can 
-
 ## Installation
 
 **Installation**
