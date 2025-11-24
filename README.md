@@ -4,6 +4,8 @@ A small util for converting a timestamp to a string. Pass in a timestamp and get
 
 An example could be, "interacted 5 seconds ago".
 
+The method will return the following.
+
 - "XX seconds ago"
 - "XX minutes ago"
 - "XX hours ago"
@@ -11,7 +13,7 @@ An example could be, "interacted 5 seconds ago".
 - "XX months ago"
 - "XX years ago"
 
-Of course you can change the outcoming sting as you please in the end of the time.tsx file.
+Of course you can change the outcoming string as you please in the end of the time.tsx file.
 
 ## Installation
 
